@@ -1,5 +1,5 @@
 # Plategate: Grab them by the plate!
-Proof of Concept script described in the article [Plategate: Grab them by the plate!](https://www.linkedin.com/pulse/plategate-grab-them-plate-thomas-m%C3%BCller)
+Proof of Concept script described in the article [Plategate: Grab them by the plate!](https://raw.githubusercontent.com/seczer0/plategate/master/Plategate.pdf)
 
 #### Usage
 The script `grab-them-by-the-plate.py` queries the vehicle owner data for a range of swiss number plates. The number
@@ -10,7 +10,7 @@ The script `grab-them-by-the-plate.py` queries the vehicle owner data for a rang
 * Zug (ZG)
 * Zurich (ZH)
 
-By default the owner data is written to the file `results.txt` in the current directory. 
+By default the owner data is written to the file `results.txt` in the current directory.
 ```
 usage: grab-them-by-the-plate.py [-h] [-t THREADS] [-o OUTFILE]
                                  {AG,LU,SH,ZG,ZH} start [end]
